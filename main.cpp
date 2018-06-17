@@ -52,7 +52,7 @@ int main()
     }
     std::vector< std::pair<int, int> > pairs;
     for (int i = 0; i < 60; i++){
-        for (int j = i; j < 60; j++){
+        for (int j = i+1; j < 60; j++){
             pairs.push_back({i,j});
         }
     }
